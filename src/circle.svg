@@ -4,7 +4,7 @@
     <defs>
         <filter id="dropshadow">
             <feGaussianBlur in="SourceGraphic" stdDeviation="0.5"/>
-            <feOffset dx="-0.3" dy="-0.3" result="offsetblur"/>
+            <feOffset dx="0" dy="0.5" result="offsetblur"/>
             <feMerge>
                 <feMergeNode/>
                 <feMergeNode in="SourceGraphic"/>
